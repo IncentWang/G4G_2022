@@ -8,6 +8,7 @@
     PlayerState,
     SaveOrLoad,
     Load,
-    Shooter
+    Shooter,
+    BartenderGame
 
 }

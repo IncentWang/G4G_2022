@@ -14,7 +14,6 @@ namespace UIFramework
 
         public void OnClickNewStartButton()
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             //要pop所有的Panel
             UIManager.Instance.PopAllPanel();
             //初始化字典

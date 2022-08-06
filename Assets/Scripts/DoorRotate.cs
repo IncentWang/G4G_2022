@@ -20,7 +20,7 @@ public class DoorRotate : MonoBehaviour
 
         }
         time+=Time.deltaTime;
-        if (time > 3)
+        if (isRotate && time > 3)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }

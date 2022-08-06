@@ -21,5 +21,9 @@ public class Test : MonoBehaviour
     {
         UIManager.Instance.PushPanel(UIPanelType.Shooter);
 
+    }public void OnClickBartenderGameButton()
+    {
+        UIManager.Instance.PushPanel(UIPanelType.BartenderGame);
+
     }
 }
