@@ -1,0 +1,18 @@
+{
+    "name": "com.wymen.ui",
+    "version": "0.0.2",
+    "description": "自建库",
+    "displayName": "UIFramework",
+    "unity": "2019.4",
+    "author": {
+      "name": "Wymen",
+      "email": "liweimin0406@163.com",
+      "url": "https://github.com/Wyman19/UIFramework-Inventory"
+    },
+
+    "documentationUrl": "",
+    "hideInEditor": false,
+    "keywords": [
+      "wymen"
+    ]
+  }
