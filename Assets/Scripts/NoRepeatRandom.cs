@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class NoRepeatRandom
 {
-    public static NoRepeatRandom Inste;
     int totalCount;
     int nowCount = 0;
     Hashtable hashtable = new Hashtable();

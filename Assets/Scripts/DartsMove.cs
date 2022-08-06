@@ -8,21 +8,22 @@ public class DartsMove : MonoBehaviour
     Vector2 velocityDir;
     Vector2 lastDir;
     Rigidbody2D rb;
-    Transform centrePos;
+    private NoRepeatRandom nrr;
 
-    public int collNum;
+    int collNum;
 
-    public float switchTargetTime;
-    public float time;
+    [Tooltip("运行时显示当前速度，更改来修改初始速度")]
     public float speed;
+    [Tooltip("在X次碰撞之后一定向中心弹射")]
+    public int AfterXCollisionToGoCenter;
 
     // Start is called before the first frame update
     void Start()
     {
+        nrr = new NoRepeatRandom(1000);
         TryGetComponent<Rigidbody2D>(out rb);
-        Hashtable hashtable = new Hashtable();
-        velocityDir = hashtable.Next();
-        Debug.Log(velocityDir);
+        velocityDir.x = nrr.Next() * 300f - 150f;
+        velocityDir.y = nrr.Next() * 300f - 150f;
         velocityDir.Normalize();
         rb.velocity = velocityDir * speed;
     }
@@ -30,12 +31,12 @@ public class DartsMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        //rectTransform.anchoredPosition = new Vector2( Mathf.Lerp(rectTransform.anchoredPosition.x, targetPos.x ,Time.deltaTime* speed), Mathf.Lerp(rectTransform.anchoredPosition.y, targetPos.y, Time.deltaTime* speed));
     }
+    
     private void LateUpdate()
     {
-        lastDir = rb.velocity;
+        lastDir = velocityDir;
+        rb.velocity = velocityDir * speed;
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -43,11 +44,12 @@ public class DartsMove : MonoBehaviour
         {
             collNum++;
             Vector2 reflexAngle = Vector2.Reflect(lastDir, collision.contacts[0].normal);
-            rb.velocity = reflexAngle.normalized * lastDir.magnitude;
-            if (new System.Random().Next(collNum, 10) > 8)
+            velocityDir = reflexAngle.normalized * lastDir.magnitude;
+            if (new System.Random().Next(collNum, 10) > AfterXCollisionToGoCenter)
             {
-                //Debug.Log("set Velocity");
-                rb.velocity = centrePos.position * speed;
+                Vector2 tempVelocity = Vector2.zero - ((RectTransform) transform).anchoredPosition;
+                velocityDir = tempVelocity.normalized;
+                collNum = 0;
             }
         }
     }
