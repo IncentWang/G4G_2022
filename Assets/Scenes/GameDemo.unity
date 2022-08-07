@@ -4780,112 +4780,24 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1779301379}
     m_Modifications:
-    - target: {fileID: 222331463, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
-      propertyPath: m_Type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 222331463, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 2530564911472380330, guid: e3ea777407d74fa4cac7eae94eb54c97, type: 3}
-    - target: {fileID: 1619535399, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1619535399, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1619535399, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
-      propertyPath: m_Color.r
+    - target: {fileID: 813451532939370799, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
+      propertyPath: m_AnchorMax.x
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 813451532939370799, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 813451532939370799, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 815307008188917483, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
-      propertyPath: m_Color.b
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 815307008188917483, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 815307008188917483, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 815307008188917483, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
-      propertyPath: m_FontData.m_MinSize
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 815307008188917483, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 2173343721381217582, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2173343721381217582, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2173343721381217582, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2625306842231632279, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2625306842231632279, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2625306842231632279, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2625306842231632279, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
-      propertyPath: m_FontData.m_MinSize
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2625306842231632279, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 18
-      objectReference: {fileID: 0}
-    - target: {fileID: 2782728085306771489, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
-      propertyPath: m_Type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2782728085306771489, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 2530564911472380330, guid: e3ea777407d74fa4cac7eae94eb54c97, type: 3}
-    - target: {fileID: 3271549533760122815, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
-      propertyPath: m_Type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3271549533760122815, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 2530564911472380330, guid: e3ea777407d74fa4cac7eae94eb54c97, type: 3}
-    - target: {fileID: 3374317114256334550, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3374317114256334550, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3374317114256334550, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
-      propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6451349704631064017, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
@@ -4978,16 +4890,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6451349704631064018, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
       propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8692182272214189067, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
-      propertyPath: m_Type
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8692182272214189067, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 2530564911472380330, guid: e3ea777407d74fa4cac7eae94eb54c97, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
 --- !u!224 &7764360077615379372 stripped
