@@ -2,9 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using DefaultNamespace;
 
 public class AddAlcohol : MonoBehaviour
 {
+    public ExcelDataManager excelDataManager;
+    public Cup cup;
+
+    public int sweet;
+    public int intensity;
+    public int mellow;
+
     bool buttonDown;
     bool addAlcohol;
     public float switchSpeedTime;
@@ -16,6 +24,10 @@ public class AddAlcohol : MonoBehaviour
     void Start()
     {
         transform.parent.Find("Slider").TryGetComponent<Slider>(out slider);
+        transform.parent.Find("CupDetails").TryGetComponent<Cup>(out cup);
+        sweet = GetAlcohol().sweet;
+        intensity = GetAlcohol().intensity;
+        mellow = GetAlcohol().mellow;
     }
 
     // Update is called once per frame
@@ -32,7 +44,8 @@ public class AddAlcohol : MonoBehaviour
         if (buttonDown && addAlcohol)
         {
             slider.value += Time.deltaTime* speed;
-        }else if (buttonDown && !addAlcohol)
+        }
+        else if (buttonDown && !addAlcohol)
         {
             slider.value -= Time.deltaTime* speed;
         }
@@ -51,11 +64,36 @@ public class AddAlcohol : MonoBehaviour
         if (down)
         {
             slider.value = 0;
-            Debug.Log("加酒");
+            //Debug.Log("加酒");
         }else
         {
-            Debug.Log("停止加酒,加了:"+slider.value);
-            
+            //Debug.Log("停止加酒,加了:"+slider.value);
+            cup.sweet += slider.value * sweet;
+            cup.intensity += slider.value * intensity;
+            cup.mellow += slider.value * mellow;
         }
     }
+    public AlcoholItem GetAlcohol()
+    {
+        switch (gameObject.name)
+        {
+            case "Votka":
+                return excelDataManager.AlcoholItem[2];
+            case "Whisky":
+                return excelDataManager.AlcoholItem[0];
+            case "rum":
+                return excelDataManager.AlcoholItem[1];
+            case "liqueur":
+                return excelDataManager.AlcoholItem[3];
+            case "barandy":
+                return excelDataManager.AlcoholItem[4];
+            case "力娇酒":
+                return excelDataManager.AlcoholItem[5];
+            default :
+                return excelDataManager.AlcoholItem[0];
+
+        }
+        
+    }
+
 }
