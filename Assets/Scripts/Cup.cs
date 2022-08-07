@@ -19,21 +19,11 @@ public class Cup : MonoBehaviour
     public Text textMellow;
     // Start is called before the first frame update
 
-    void OnEnable()
+    public void OnClickFinishButton()
     {
-
         textSweet.text = NeedToString(sweet);
         textIntensity.text = NeedToString(intensity);
         textMellow.text = NeedToString(mellow);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-    public void OnClickFinishButton()
-    {
         //比较杯与客户需求
         CompareNeed();
         Debug.Log("顾客是否满足"+ CompareNeed());
@@ -62,7 +52,7 @@ public class Cup : MonoBehaviour
         }
         else
         {
-            return "浓";
+            return "很浓";
         }
     }
     bool CompareNeed()
