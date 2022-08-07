@@ -2,22 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UIFramework;
 
 public class Cup : MonoBehaviour
 {
+    public CreateCustomerNeed customerNeed;
     public float sweet;
     public float intensity;
     public float mellow;
+
+    int emptyNum;
+    public int emptyMaxNum;
 
     public Text textSweet;
     public Text textIntensity;
     public Text textMellow;
     // Start is called before the first frame update
+
     void OnEnable()
     {
-        transform.GetChild(0).GetChild(0).TryGetComponent<Text>(out textSweet);
-        transform.GetChild(1).GetChild(0).TryGetComponent<Text>(out textIntensity);
-        transform.GetChild(2).GetChild(0).TryGetComponent<Text>(out textMellow);
 
         textSweet.text = NeedToString(sweet);
         textIntensity.text = NeedToString(intensity);
@@ -27,6 +30,25 @@ public class Cup : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+    }
+    public void OnClickFinishButton()
+    {
+        //比较杯与客户需求
+        CompareNeed();
+        Debug.Log("顾客是否满足"+ CompareNeed());
+        UIManager.Instance.PopPanel();
+    }
+    public void OnClickEmptyButton()
+    {
+        if ((emptyNum <= emptyMaxNum))
+        {
+            emptyNum++;
+            //清空酒杯
+            sweet = intensity = mellow = 0;
+            textSweet.text=textIntensity.text= textMellow.text="无";
+            
+}
 
     }
     private string NeedToString(float need)
@@ -43,5 +65,15 @@ public class Cup : MonoBehaviour
         {
             return "很浓";
         }
+    }
+    bool CompareNeed()
+    {
+        if(customerNeed.sweet.text != textSweet.text)
+            return false;
+        if (customerNeed.sweet.text != textIntensity.text)
+            return false;
+        if (customerNeed.sweet.text != textMellow.text)
+            return false;
+        return true;
     }
 }

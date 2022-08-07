@@ -15,9 +15,6 @@ public class CreateCustomerNeed : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        transform.GetChild(0).GetChild(0).TryGetComponent<Text>(out sweet);
-        transform.GetChild(1).GetChild(0).TryGetComponent<Text>(out intensity);
-        transform.GetChild(2).GetChild(0).TryGetComponent<Text>(out mellow);
         nrr = new NoRepeatRandom(1000);
         var rdm=nrr.Next() * 100;
         Debug.Log(rdm);
@@ -28,6 +25,14 @@ public class CreateCustomerNeed : MonoBehaviour
             if (weightSum > rdm)
             {
                 //根据权重随机出顾客需求
+                if (i == 0)
+                {
+                    Debug.Log(dataManager.Need[i].id);
+                    sweet.text = NeedToString(dataManager.Need[i].needSweet);
+                    intensity.text = NeedToString(dataManager.Need[i].needIntensity);
+                    mellow.text = NeedToString(dataManager.Need[i].needMellow);
+                    return;
+                }
                 Debug.Log(dataManager.Need[i-1].id);
                 sweet.text = NeedToString(dataManager.Need[i - 1].needSweet);
                 intensity.text = NeedToString(dataManager.Need[i - 1].needIntensity);
