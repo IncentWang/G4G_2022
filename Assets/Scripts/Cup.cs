@@ -46,24 +46,23 @@ public class Cup : MonoBehaviour
             emptyNum++;
             //Çå¿Õ¾Æ±­
             sweet = intensity = mellow = 0;
-            textSweet.text=textIntensity.text= textMellow.text="ÎÞ";
-            
-}
+            textSweet.text=textIntensity.text= textMellow.text="ÎÞ";  
+        }
 
     }
     private string NeedToString(float need)
     {
         if (need <= 5)
         {
-            return "è½»å¾®";
+            return "ÇáÎ¢";
         }
         else if (need > 5 && need <= 10)
         {
-            return "é€‚ä¸­";
+            return "ÊÊÖÐ";
         }
         else
         {
-            return "å¾ˆæµ“";
+            return "Å¨";
         }
     }
     bool CompareNeed()
