@@ -1625,11 +1625,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 813451532939370799, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2173343721381217582, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6451349704631064017, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
       propertyPath: m_Pivot.x
@@ -1720,6 +1720,10 @@ PrefabInstance:
       value: BartenderGame
       objectReference: {fileID: 0}
     - target: {fileID: 6451349704631064018, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6451349705941784356, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
