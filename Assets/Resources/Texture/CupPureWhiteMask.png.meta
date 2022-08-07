@@ -1,7 +1,61 @@
 fileFormatVersion: 2
 guid: 8da759ed390c7ea4caaa0bb9bd65df94
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7896264617811611370
+    second: CupPureWhiteMask_0
+  - first:
+      213: -3922242159952465234
+    second: CupPureWhiteMask_1
+  - first:
+      213: 5427232493205216226
+    second: CupPureWhiteMask_2
+  - first:
+      213: -4805998902777276313
+    second: CupPureWhiteMask_3
+  - first:
+      213: -42990116675571824
+    second: CupPureWhiteMask_4
+  - first:
+      213: 3984023614991790691
+    second: CupPureWhiteMask_5
+  - first:
+      213: -7299242476779457001
+    second: CupPureWhiteMask_6
+  - first:
+      213: 678715091179037697
+    second: CupPureWhiteMask_7
+  - first:
+      213: -7860440227213500652
+    second: CupPureWhiteMask_8
+  - first:
+      213: -7738067440870960787
+    second: CupPureWhiteMask_9
+  - first:
+      213: 3979223984523291858
+    second: CupPureWhiteMask_10
+  - first:
+      213: -221167463563535004
+    second: CupPureWhiteMask_11
+  - first:
+      213: 6409462782369174321
+    second: CupPureWhiteMask_12
+  - first:
+      213: 1910401611029750893
+    second: CupPureWhiteMask_13
+  - first:
+      213: 7152511245955726647
+    second: CupPureWhiteMask_14
+  - first:
+      213: 4450619599096993831
+    second: CupPureWhiteMask_15
+  - first:
+      213: -3904874653711027829
+    second: CupPureWhiteMask_16
+  - first:
+      213: -4161821580284375756
+    second: CupPureWhiteMask_17
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +95,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,7 +167,385 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: CupPureWhiteMask_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 852
+        width: 1920
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee852d65da259d60800000000000000
+      internalID: 7896264617811611370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CupPureWhiteMask_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 824
+        width: 1920
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2f8f459856199c0800000000000000
+      internalID: -3922242159952465234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CupPureWhiteMask_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 796
+        width: 1920
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb54f6a237615b40800000000000000
+      internalID: 5427232493205216226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CupPureWhiteMask_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 1920
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7681b011679ad4db0800000000000000
+      internalID: -4805998902777276313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CupPureWhiteMask_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 740
+        width: 1920
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f23b677b4476ff0800000000000000
+      internalID: -42990116675571824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CupPureWhiteMask_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 712
+        width: 1920
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3627a5c9e581a4730800000000000000
+      internalID: 3984023614991790691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CupPureWhiteMask_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 684
+        width: 1920
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7163e12f3a1e3ba90800000000000000
+      internalID: -7299242476779457001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CupPureWhiteMask_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 656
+        width: 1920
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1046c6987c74b6900800000000000000
+      internalID: 678715091179037697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CupPureWhiteMask_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 628
+        width: 1920
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f9fbe724b1ae290800000000000000
+      internalID: -7860440227213500652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CupPureWhiteMask_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 1920
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61deda19acdc9490800000000000000
+      internalID: -7738067440870960787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CupPureWhiteMask_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 572
+        width: 1920
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dca93f812b093730800000000000000
+      internalID: 3979223984523291858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CupPureWhiteMask_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544
+        width: 1920
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ddb6a1d514eecf0800000000000000
+      internalID: -221167463563535004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CupPureWhiteMask_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 516
+        width: 1920
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1339338117cf2f850800000000000000
+      internalID: 6409462782369174321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CupPureWhiteMask_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 488
+        width: 1920
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6423cbb42c138a10800000000000000
+      internalID: 1910401611029750893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CupPureWhiteMask_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 460
+        width: 1920
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d7d232513d24360800000000000000
+      internalID: 7152511245955726647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CupPureWhiteMask_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 1920
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728519ae1f6c3cd30800000000000000
+      internalID: 4450619599096993831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CupPureWhiteMask_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1920
+        height: 432
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81b02df0391fc9c0800000000000000
+      internalID: -3904874653711027829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CupPureWhiteMask_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d4890b25d3e36c0800000000000000
+      internalID: -4161821580284375756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -5,11 +5,17 @@ public class GameManager : MonoBehaviour
     // 使用该类来放置游戏中的所有游戏时数据、Flowchart、工具函数
     public GameObject NeedBubble;
 
+    /// <summary>
+    /// 显示客人头上的需求泡泡。
+    /// </summary>
     public void ShowNeedBubble()
     {
         NeedBubble.SetActive(true);
     }
 
+    /// <summary>
+    /// 将客人头上的需求泡泡隐藏。
+    /// </summary>
     public void HideNeedBubble()
     {
         NeedBubble.SetActive(false);

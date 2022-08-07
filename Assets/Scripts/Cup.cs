@@ -55,15 +55,15 @@ public class Cup : MonoBehaviour
     {
         if (need <= 5)
         {
-            return "ÇáÎ¢";
+            return "è½»å¾®";
         }
         else if (need > 5 && need <= 10)
         {
-            return "ÊÊÖÐ";
+            return "é€‚ä¸­";
         }
         else
         {
-            return "ºÜÅ¨";
+            return "å¾ˆæµ“";
         }
     }
     bool CompareNeed()
