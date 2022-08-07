@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections.Generic;
 using UIFramework;
 using UnityEngine.UI;
 namespace DefaultNamespace
@@ -8,11 +9,15 @@ namespace DefaultNamespace
         public RectTransform DotPosition;
         public DartsMove Dart;
         public Text scoreText;
+        public List<AudioClip> clips;
+        public Transform cam;
 
         private void Update()
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
+                AudioSource.PlayClipAtPoint(clips[0],cam.position);
+                AudioSource.PlayClipAtPoint(clips[1],cam.position);
                 // 开始执行射线检测
                 RaycastHit2D[] hits = Physics2D.RaycastAll(DotPosition.anchoredPosition, Vector2.zero);
                 Ray ray = new Ray(Camera.main.transform.position,

@@ -5,7 +5,6 @@ using System.IO;
 using System.Data;
 using DefaultNamespace;
 using Excel;
-using UnityEngine;
 
 public class DataParserFromExcel : Editor
 {

@@ -7,6 +7,8 @@ public class AlcoholPourer : MonoBehaviour
     public Slider ProcessSlider;
     public float SliderSpeed;
     public Text Hint;
+    public AudioClip clip;
+    public Transform cam;
 
     private bool movingBar;
     private bool movingUp;
@@ -15,6 +17,7 @@ public class AlcoholPourer : MonoBehaviour
     {
         movingBar = false;
         CallbackAlcohol.AddToGlass(ProcessSlider.value);
+        AudioSource.PlayClipAtPoint(clip, cam.position);
     }
 
     public void Reset()

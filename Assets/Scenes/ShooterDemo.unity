@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,6 +123,50 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &233080107
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 233080109}
+  - component: {fileID: 233080108}
+  m_Layer: 0
+  m_Name: _FungusState
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &233080108
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233080107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedFlowchart: {fileID: 0}
+--- !u!4 &233080109
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233080107}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &555281593
 GameObject:
   m_ObjectHideFlags: 0
@@ -139,7 +183,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &555281594
 Transform:
   m_ObjectHideFlags: 0
@@ -168,6 +212,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DotPosition: {fileID: 1913859907}
   Dart: {fileID: 1913859911}
+  scoreText: {fileID: 0}
+  clips:
+  - {fileID: 8300000, guid: d329a1fd5d8b1e54d8c5e2552142978b, type: 3}
+  - {fileID: 8300000, guid: 52969cb8e21aead4182332104029eb84, type: 3}
+  cam: {fileID: 1316329683}
 --- !u!1 &1316329680
 GameObject:
   m_ObjectHideFlags: 0
@@ -433,6 +482,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4303082721062431605, guid: 87736f897696dbb459f348d9bf5861cf, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 1316329683}
+    - target: {fileID: 4303082721062431605, guid: 87736f897696dbb459f348d9bf5861cf, type: 3}
+      propertyPath: clips.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4303082721062431605, guid: 87736f897696dbb459f348d9bf5861cf, type: 3}
+      propertyPath: clips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: d329a1fd5d8b1e54d8c5e2552142978b, type: 3}
+    - target: {fileID: 4303082721062431605, guid: 87736f897696dbb459f348d9bf5861cf, type: 3}
+      propertyPath: clips.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 52969cb8e21aead4182332104029eb84, type: 3}
     - target: {fileID: 8861429324717590673, guid: 87736f897696dbb459f348d9bf5861cf, type: 3}
       propertyPath: m_Name
       value: Canvas

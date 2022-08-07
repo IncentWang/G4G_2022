@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UIFramework;
-
 public class Test : MonoBehaviour
 {
     
@@ -20,8 +19,8 @@ public class Test : MonoBehaviour
     public void OnClickShooterButton()
     {
         UIManager.Instance.PushPanel(UIPanelType.Shooter);
-
-    }public void OnClickBartenderGameButton()
+    }
+    public void OnClickBartenderGameButton()
     {
         UIManager.Instance.PushPanel(UIPanelType.BartenderGame);
 
