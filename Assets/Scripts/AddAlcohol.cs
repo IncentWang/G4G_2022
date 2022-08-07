@@ -9,6 +9,7 @@ public class AddAlcohol : MonoBehaviour
     public ExcelDataManager excelDataManager;
     public Cup cup;
     public ChangeGlassColor ChangeGlassColor;
+    public AlcoholPourer Pourer;
 
     public int sweet;
     public int intensity;
@@ -21,6 +22,7 @@ public class AddAlcohol : MonoBehaviour
     float speed=1;
 
     private NoRepeatRandom nrr;
+    private Vector2 originalPosition;
     public Slider slider;
     // Start is called before the first frame update
     void Start()
@@ -30,6 +32,8 @@ public class AddAlcohol : MonoBehaviour
         sweet = GetAlcohol().sweet;
         intensity = GetAlcohol().intensity;
         mellow = GetAlcohol().mellow;
+        nrr = new NoRepeatRandom(1000);
+        originalPosition = ((RectTransform) transform).anchoredPosition;
     }
 
     // Update is called once per frame
@@ -38,7 +42,6 @@ public class AddAlcohol : MonoBehaviour
         switchSpeedTime+=Time.deltaTime;
         if (switchSpeedTime >= 1)
         {
-            nrr = new NoRepeatRandom(1000);
             speed = nrr.Next() * 2.5f;
             switchSpeedTime = 0;
         }
@@ -78,6 +81,40 @@ public class AddAlcohol : MonoBehaviour
             ChangeGlassColor.Add(ID, (int)Mathf.Ceil(slider.value * 3f));
         }
     }
+
+    public void Reset()
+    {
+        EndPourAlcohol();
+    }
+
+    public void AddToGlass(float sliderValue)
+    {
+        cup.sweet += sliderValue * sweet;
+        cup.intensity += sliderValue  * intensity;
+        cup.mellow += sliderValue  * mellow;
+            
+        ChangeGlassColor.Add(ID, (int)Mathf.Ceil(slider.value * 3f));
+        EndPourAlcohol();
+    }
+
+    public void StartPourAlcohol()
+    {
+        ((RectTransform) transform).anchoredPosition = new Vector2(-72f, 8.1f);
+        transform.rotation = Quaternion.Euler(0f, 0f, -95f);
+        if (Pourer.CallbackAlcohol != null)
+        {
+            Pourer.Reset();
+        }
+
+        Pourer.StartTry(this);
+    }
+
+    public void EndPourAlcohol()
+    {
+        ((RectTransform) transform).anchoredPosition = originalPosition;
+        transform.rotation = Quaternion.identity;
+    }
+
     public AlcoholItem GetAlcohol()
     {
         switch (gameObject.name)
