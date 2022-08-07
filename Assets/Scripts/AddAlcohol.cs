@@ -8,10 +8,12 @@ public class AddAlcohol : MonoBehaviour
 {
     public ExcelDataManager excelDataManager;
     public Cup cup;
+    public ChangeGlassColor ChangeGlassColor;
 
     public int sweet;
     public int intensity;
     public int mellow;
+    public int ID;
 
     bool buttonDown;
     bool addAlcohol;
@@ -64,13 +66,16 @@ public class AddAlcohol : MonoBehaviour
         if (down)
         {
             slider.value = 0;
-            //Debug.Log("º”æ∆");
+            //Debug.Log("Âä†ÈÖí");
+            Debug.Log(ID);
         }else
         {
-            //Debug.Log("Õ£÷πº”æ∆,º”¡À:"+slider.value);
+            //Debug.Log("ÂÅúÊ≠¢Âä†ÈÖí,Âä†‰∫Ü:"+slider.value);
             cup.sweet += slider.value * sweet;
             cup.intensity += slider.value * intensity;
             cup.mellow += slider.value * mellow;
+            
+            ChangeGlassColor.Add(ID, (int)Mathf.Ceil(slider.value * 3f));
         }
     }
     public AlcoholItem GetAlcohol()
@@ -87,7 +92,7 @@ public class AddAlcohol : MonoBehaviour
                 return excelDataManager.AlcoholItem[3];
             case "barandy":
                 return excelDataManager.AlcoholItem[4];
-            case "¡¶Ωøæ∆":
+            case "ÂäõÂ®áÈÖí":
                 return excelDataManager.AlcoholItem[5];
             default :
                 return excelDataManager.AlcoholItem[0];
