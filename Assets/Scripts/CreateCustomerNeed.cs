@@ -6,20 +6,19 @@ using UnityEngine.UI;
 
 public class CreateCustomerNeed : MonoBehaviour
 {
-    private NoRepeatRandom nrr;
     public  ExcelDataManager dataManager;
 
     public Text sweet;
     public Text intensity;
     public Text mellow;
     // Start is called before the first frame update
-    void Start()
+    private void OnEnable()
     {
-        nrr = new NoRepeatRandom(1000);
-        var rdm=nrr.Next() * 100;
+        System.Random nrr = new System.Random();
+        var rdm = nrr.Next(1,100);
         Debug.Log(rdm);
-        var weightSum=0;
-        for(int i=0;i<dataManager.Need.Length-1;i++)
+        var weightSum = 0;
+        for (int i = 0; i < dataManager.Need.Length - 1; i++)
         {
             weightSum += dataManager.Need[i].weight;
             if (weightSum > rdm)
@@ -33,7 +32,7 @@ public class CreateCustomerNeed : MonoBehaviour
                     mellow.text = NeedToString(dataManager.Need[i].needMellow);
                     return;
                 }
-                Debug.Log(dataManager.Need[i-1].id);
+                Debug.Log(dataManager.Need[i - 1].id);
                 sweet.text = NeedToString(dataManager.Need[i - 1].needSweet);
                 intensity.text = NeedToString(dataManager.Need[i - 1].needIntensity);
                 mellow.text = NeedToString(dataManager.Need[i - 1].needMellow);
@@ -41,8 +40,8 @@ public class CreateCustomerNeed : MonoBehaviour
             }
 
         }
-            
     }
+
 
     // Update is called once per frame
     void Update()
