@@ -121,7 +121,7 @@ public class AlcoholPourer : MonoBehaviour
         }
         else
         {
-            Hint.text = "选择一款酒来查看笔记，点击派大星查看客人要求";
+            Hint.text = "选择一款酒来查看笔记";
         }
     }
 }
