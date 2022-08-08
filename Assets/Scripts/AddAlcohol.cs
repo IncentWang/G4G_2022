@@ -101,7 +101,7 @@ public class AddAlcohol : MonoBehaviour
     {
         ((RectTransform) transform).anchoredPosition = new Vector2(-72f, 8.1f);
         transform.rotation = Quaternion.Euler(0f, 0f, -95f);
-        if (Pourer.CallbackAlcohol != null)
+        if (Pourer.CallbackAlcohol != null&& Pourer.CallbackAlcohol!=this)
         {
             Pourer.Reset();
         }
@@ -111,7 +111,6 @@ public class AddAlcohol : MonoBehaviour
 
     public void EndPourAlcohol()
     {
-        Debug.Log("返回原来的位置");
         ((RectTransform) transform).anchoredPosition = originalPosition;
         transform.rotation = Quaternion.identity;
     }

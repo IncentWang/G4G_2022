@@ -18,6 +18,7 @@ public class Test : MonoBehaviour
     }
     public void OnClickShooterButton()
     {
+        Debug.Log("½øÈë·ÉïÚÓÎÏ·");
         UIManager.Instance.PushPanel(UIPanelType.Shooter);
     }
     public void OnClickBartenderGameButton()

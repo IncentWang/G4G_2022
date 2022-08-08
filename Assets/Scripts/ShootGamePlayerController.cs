@@ -11,7 +11,10 @@ namespace DefaultNamespace
         public Text scoreText;
         public List<AudioClip> clips;
         public Transform cam;
-
+        private void Start()
+        {
+            GameObject.Find("Main Camera").TryGetComponent<Transform>(out cam);
+        }
         private void Update()
         {
             if (Input.GetKeyDown(KeyCode.Space))
