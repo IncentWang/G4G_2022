@@ -4,6 +4,7 @@ using UnityEngine;
 using UIFramework;
 public class Test : MonoBehaviour
 {
+    public ShootGamePlayerController SPC;
     
     // Start is called before the first frame update
     void Start()
@@ -26,6 +27,11 @@ public class Test : MonoBehaviour
         GameManager.Instance.HideNeedBubble();
         UIManager.Instance.PushPanel(UIPanelType.BartenderGame);
 
+    }
+
+    public void ContinueStory()
+    {
+        GameManager.Instance.ContinueStory(false, SPC.CompareScore());
     }
 
     public void Exit()

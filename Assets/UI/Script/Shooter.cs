@@ -23,7 +23,6 @@ namespace UIFramework
         public void OnClickReturnButton()
         {
             UIManager.Instance.PopPanel();
-            
         }
     }
 }

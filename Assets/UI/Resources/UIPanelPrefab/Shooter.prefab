@@ -294,6 +294,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 4457663415155613164}
+        m_TargetAssemblyTypeName: Test, Assembly-CSharp
+        m_MethodName: ContinueStory
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &851503198066715568
 GameObject:
   m_ObjectHideFlags: 0
@@ -1206,6 +1218,7 @@ GameObject:
   - component: {fileID: 8839348747694540231}
   - component: {fileID: 5338378728992861845}
   - component: {fileID: 9061891545565961247}
+  - component: {fileID: 4457663415155613164}
   m_Layer: 5
   m_Name: Shooter
   m_TagString: Untagged
@@ -1307,6 +1320,19 @@ MonoBehaviour:
   darts2: {fileID: 8882492453373057918}
   playerScore: {fileID: 7062685585704548704}
   score: {fileID: 6534415856042491635}
+--- !u!114 &4457663415155613164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3566751170513119037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d539003716e7d7a43bc47bfa5d78e29d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SPC: {fileID: 3015349246312973654}
 --- !u!1 &3760429483806437589
 GameObject:
   m_ObjectHideFlags: 0
