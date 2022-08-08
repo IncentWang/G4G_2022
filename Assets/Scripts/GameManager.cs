@@ -41,4 +41,9 @@ public class GameManager : MonoBehaviour
             AudioSource.PlayClipAtPoint(clip, cam.position);
         }
     }
+
+    public void ChangeToDart()
+    {
+        
+    }
 }
