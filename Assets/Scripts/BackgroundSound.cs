@@ -4,25 +4,31 @@ using UnityEngine;
 
 public class BackgroundSound : MonoBehaviour
 {
-
+    AudioSource source;
     public List<AudioClip> backgroundSounds;
     int index = 0;
     void Start()
     {
-        StartCoroutine("PlaySound");
+        source = GetComponent<AudioSource>();
+        source.clip = backgroundSounds[index];
+        source.Play();
+        Debug.Log(backgroundSounds.Count);
     }
-
-    IEnumerator PlaySound()
+    private void Update()
     {
-        while (true)
+        if (!source.isPlaying)
         {
-            AudioSource.PlayClipAtPoint(backgroundSounds[index], transform.position);
-            yield return new WaitForSeconds(150);
-            index++;
-            if (index > backgroundSounds.Count) 
-            {
-                index = 0;
-            }
+            NextSound();
         }
+    }
+    void NextSound()
+    {
+        index++;
+        if (index > backgroundSounds.Count - 1)
+        {
+            index = 0;
+        }
+        source.clip = backgroundSounds[index];
+        source.Play();
     }
 }
