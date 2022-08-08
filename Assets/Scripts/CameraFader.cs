@@ -1,4 +1,6 @@
-﻿using DG.Tweening;
+﻿using System.Collections;
+using System.Collections.Generic;
+using DG.Tweening;
 using Fungus;
 using UnityEngine;
 using UnityEngine.UI;
@@ -13,6 +15,13 @@ public class CameraFader : MonoBehaviour
 
     public void FadeIn(float duration)
     {
-        Image.DOFade(0f, duration);
+        StartCoroutine(FadeinWithDelay());
+        // Image.DOFade(0f, duration);
+    }
+
+    private IEnumerator FadeinWithDelay()
+    {
+        yield return new WaitForSeconds(1f);
+        Image.DOFade(0f, 1f);
     }
 }
