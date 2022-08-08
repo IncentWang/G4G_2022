@@ -27,4 +27,9 @@ public class Test : MonoBehaviour
         UIManager.Instance.PushPanel(UIPanelType.BartenderGame);
 
     }
+
+    public void Exit()
+    {
+        Application.Quit();
+    }
 }

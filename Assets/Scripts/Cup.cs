@@ -22,7 +22,7 @@ public class Cup : MonoBehaviour
 
     public void OnClickFinishButton()
     {
-        changeGlassColor.ClearCup();
+        // changeGlassColor.ClearCup();
         ChangeDes();
         //比较杯与客户需求
         Debug.Log("顾客是否满足"+ CompareNeed());
