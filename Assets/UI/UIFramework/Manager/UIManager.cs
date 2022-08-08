@@ -9,8 +9,7 @@ namespace UIFramework
     public class UIManager
     {
         readonly string panelPrefabPath = Application.dataPath + @"/UI/Resources/UIPanelPrefab";
-        readonly string jsonPath = Application.dataPath + @"/UI/Json/UIJson.json";
-
+        readonly string jsonPath = Application.streamingAssetsPath + @"/UIJson.json";
         //单例模式
         private static UIManager _instance;
         public static UIManager Instance
