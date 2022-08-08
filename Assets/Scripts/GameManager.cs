@@ -1,4 +1,5 @@
 ﻿using Fungus;
+using UIFramework;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -57,7 +58,7 @@ public class GameManager : MonoBehaviour
 
     public void ChangeToDart()
     {
-        
+        UIManager.Instance.PushPanel(UIPanelType.Shooter);
     }
 
     public void ContinueStory(bool drinkStatus, bool dartStatus)
@@ -71,6 +72,9 @@ public class GameManager : MonoBehaviour
             case "营救人质上":
                 Flowchart.ExecuteBlock("营救人质（上）调酒后");
                 break;
+            case "营救人质飞镖":
+                Flowchart.ExecuteBlock("营救人质（上）飞镖后");
+                break;
             case "营救人质下":
                 Flowchart.ExecuteBlock("营救人质（下）调酒后");
                 break;
@@ -79,6 +83,24 @@ public class GameManager : MonoBehaviour
                 break;
             case "猎杀狙击手":
                 Flowchart.ExecuteBlock("猎杀狙击手（调酒后）");
+                break;
+            case "猎杀狙击手（调酒后）":
+                Flowchart.ExecuteBlock("射飞镖事件");
+                break;
+            case "换防事件":
+                Flowchart.ExecuteBlock("换防事件（调酒后）");
+                break;
+            case "换防事件飞镖":
+                Flowchart.ExecuteBlock("换防事件飞镖后");
+                break;
+            case "护送物资":
+                Flowchart.ExecuteBlock("护送物资（调酒后）");
+                break;
+            case "摧毁防空阵地":
+                Flowchart.ExecuteBlock("摧毁防空阵地（调酒后）");
+                break;
+            case "猎杀军官下":
+                Flowchart.ExecuteBlock("猎杀军官（下）调酒后");
                 break;
             // case "营救人质上":
             //     Flowchart.ExecuteBlock("营救人质（下）调酒后");

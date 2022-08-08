@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using System.Collections.Generic;
 using UIFramework;
 using UnityEngine.UI;
@@ -41,9 +42,19 @@ namespace DefaultNamespace
                 AudioSource.PlayClipAtPoint(clips[1], cam.position);
                 shoot(playerDart, playerScoreText, playerDotPosition);
                 Debug.Log("玩家是否获胜" + CompareScore());
-                UIManager.Instance.PopPanel();
+                StartCoroutine(PopPanelWithDelay(1.5f));
+                
+                // UIManager.Instance.PopPanel();
             }
         }
+
+        private IEnumerator PopPanelWithDelay(float delay)
+        {
+            yield return new WaitForSeconds(delay);
+            GameManager.Instance.ContinueStory(false, CompareScore());
+            UIManager.Instance.PopPanel();
+        }
+
         void shoot(DartsMove Dart, Text scoreText, RectTransform DotPosition)
         {
             AudioSource.PlayClipAtPoint(clips[0], cam.position);
