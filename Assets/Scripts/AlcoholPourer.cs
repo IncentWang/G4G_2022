@@ -13,6 +13,11 @@ public class AlcoholPourer : MonoBehaviour
 
     float switchSpeedTime;
 
+    public bool isHover;
+    public float hoverTiem;
+    public float hoverMaxTiem= 4;
+    public bool hoverLock;
+
     private bool movingBar;
     private bool movingUp;
 
@@ -23,6 +28,7 @@ public class AlcoholPourer : MonoBehaviour
     }
     public void Pour()
     {
+        isHover = true;
         movingBar = false;
         CallbackAlcohol.AddToGlass(ProcessSlider.value);
         AudioSource.PlayClipAtPoint(clip, cam.position);
@@ -43,6 +49,15 @@ public class AlcoholPourer : MonoBehaviour
 
     public void Update()
     {
+        if (isHover)
+        {
+            hoverTiem+=Time.deltaTime;
+            if (hoverTiem > hoverMaxTiem)
+            {
+                hoverTiem = 0;
+                isHover = false;
+            }
+        }
         switchSpeedTime += Time.deltaTime;
         if (switchSpeedTime >= 1)
         {

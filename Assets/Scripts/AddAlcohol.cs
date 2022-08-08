@@ -16,6 +16,8 @@ public class AddAlcohol : MonoBehaviour
     public int mellow;
     public int ID;
 
+    bool endAdd;
+
     bool buttonDown;
     bool addAlcohol;
     public float switchSpeedTime;
@@ -59,6 +61,11 @@ public class AddAlcohol : MonoBehaviour
         EndPourAlcohol();
     }
 
+    private void Update()
+    {
+        if(!Pourer.isHover&&endAdd)
+            EndPourAlcohol();
+    }
     public void AddToGlass(float sliderValue)
     {
         cup.sweet += sliderValue * sweet;
@@ -69,25 +76,30 @@ public class AddAlcohol : MonoBehaviour
         cup.ChangeDes();
             
         ChangeGlassColor.Add(ID, (int)Mathf.Ceil(slider.value * 3f));
-        EndPourAlcohol();
+        endAdd = true;
     }
 
     public void StartPourAlcohol()
     {
-        ((RectTransform) transform).anchoredPosition = new Vector2(-72f, 8.1f);
-        transform.rotation = Quaternion.Euler(0f, 0f, -95f);
-        if (Pourer.CallbackAlcohol != null&& Pourer.CallbackAlcohol!=this)
+        if (!Pourer.isHover)
         {
-            Pourer.Reset();
-        }
+            ((RectTransform)transform).anchoredPosition = new Vector2(-72f, 8.1f);
+            transform.rotation = Quaternion.Euler(0f, 0f, -95f);
+            if (Pourer.CallbackAlcohol != null && Pourer.CallbackAlcohol != this)
+            {
+                Pourer.Reset();
+            }
 
-        Pourer.StartTry(this);
+            Pourer.StartTry(this);
+        }
+        
     }
 
     public void EndPourAlcohol()
     {
         ((RectTransform) transform).anchoredPosition = originalPosition;
         transform.rotation = Quaternion.identity;
+        endAdd = false;
     }
 
     public AlcoholItem GetAlcohol()
