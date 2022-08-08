@@ -6,13 +6,15 @@ namespace DefaultNamespace
 {
     public class ShootGamePlayerController : MonoBehaviour
     {
-        public RectTransform DotPosition;
+        public RectTransform playerDotPosition;
         public DartsMove playerDart;
         public Text playerScoreText;
         public List<AudioClip> clips;
         public Transform cam;
 
         public float time;
+        bool isShoot;
+        public RectTransform DotPosition;
         public DartsMove Dart;
         public Text scoreText;
         private void Start()
@@ -21,30 +23,33 @@ namespace DefaultNamespace
         }
         private void OnEnable()
         {
+            isShoot = false;
             System.Random random = new System.Random();
             time = random.Next(3, 5);
         }
         private void Update()
         {
             time -= Time.deltaTime;
-            if (time < 0)
+            if (time < 0&&!isShoot)
             {
-                shoot(Dart, scoreText);
+                isShoot = true;
+                shoot(Dart, scoreText, DotPosition);
             }
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.Space)&&isShoot)
             {
                 AudioSource.PlayClipAtPoint(clips[0], cam.position);
                 AudioSource.PlayClipAtPoint(clips[1], cam.position);
-                shoot(playerDart, playerScoreText);
+                shoot(playerDart, playerScoreText, playerDotPosition);
+                Debug.Log("玩家是否获胜" + CompareScore());
                 UIManager.Instance.PopPanel();
             }
         }
-        void shoot(DartsMove Dart, Text scoreText)
+        void shoot(DartsMove Dart, Text scoreText, RectTransform DotPosition)
         {
             AudioSource.PlayClipAtPoint(clips[0], cam.position);
             AudioSource.PlayClipAtPoint(clips[1], cam.position);
             // 开始执行射线检测
-            RaycastHit2D[] hits = Physics2D.RaycastAll(DotPosition.anchoredPosition, Vector2.zero);
+            RaycastHit2D[] hits = Physics2D.RaycastAll(playerDotPosition.anchoredPosition, Vector2.zero);
             Ray ray = new Ray(Camera.main.transform.position,
                 DotPosition.position - Camera.main.transform.position);
             RaycastHit2D[] hit2s = Physics2D.GetRayIntersectionAll(ray);
@@ -94,6 +99,20 @@ namespace DefaultNamespace
                     break;
                 default:
                     break;
+            }
+        }
+        public bool CompareScore()
+        {
+            int score = 0;
+            int playerScore = 0;
+            int.TryParse(playerScoreText.text, out playerScore);
+            int.TryParse(scoreText.text, out score);
+            if (score >+ playerScore)
+            {
+                return false;
+            }else
+            {
+                return true;
             }
         }
     }

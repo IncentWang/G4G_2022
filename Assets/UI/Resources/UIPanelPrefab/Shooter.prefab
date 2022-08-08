@@ -337,7 +337,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d512ac2f644a48878bf3960d9ec0b2bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DotPosition: {fileID: 2295332186423260580}
+  playerDotPosition: {fileID: 2295332186901031689}
   playerDart: {fileID: 2295332186901031693}
   playerScoreText: {fileID: 7062685585704548704}
   clips:
@@ -345,6 +345,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 52969cb8e21aead4182332104029eb84, type: 3}
   cam: {fileID: 0}
   time: 0
+  DotPosition: {fileID: 5961703389683262721}
   Dart: {fileID: 8882492453373057918}
   scoreText: {fileID: 6534415856042491635}
 --- !u!1 &2295332185089386318
@@ -1702,8 +1703,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 298.2, y: 118.6}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 298.2, y: 130.6}
+  m_SizeDelta: {x: 170.7, y: 73.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5930579058717303659
 CanvasRenderer:
@@ -1746,4 +1747,4 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u7EA2\u8272\u662F\u4F60\u7684\u51C6\u5FC3"
+  m_Text: "\u7EA2\u8272\u662F\u4F60\u7684\u51C6\u5FC3\uFF0C\n\u5BA2\u4EBA\u6295\u5B8C\u624D\u5230\u4F60\u3002"
