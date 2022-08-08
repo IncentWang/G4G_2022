@@ -18,6 +18,7 @@ public class AlcoholPourer : MonoBehaviour
 
     private void Start()
     {
+        GameObject.Find("Main Camera").TryGetComponent<Transform>(out cam);
         nrr = new NoRepeatRandom(1000);
     }
     public void Pour()
