@@ -1,10 +1,16 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 namespace UIFramework
 {
     public class MainMenu : BasePanel
     {
-
+        private void Start()
+        {
+            //GameObject.Find("Control instructions").TryGetComponent<Button>(out Button toggle);
+            //toggle.onClick.AddListener(() => OnClickControlInstructionsToggle(isOn));
+        }
 
         public override void OnEnter()
         {

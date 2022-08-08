@@ -19,8 +19,13 @@ public class DoorRotate : MonoBehaviour
             transform.Rotate(transform.up, 0.1f);
 
         }
-        time+=Time.deltaTime;
-        if (isRotate && time > 3)
+        
+        if (isRotate )
+        {
+            time += Time.deltaTime;
+            
+        }
+        if (time > 2.5)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
