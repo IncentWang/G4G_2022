@@ -36,33 +36,41 @@ public class Cup : MonoBehaviour
             emptyNum++;
             //清空酒杯
             sweet = intensity = mellow = 0;
-            textSweet.text=textIntensity.text= textMellow.text="无";  
+            ChangeDes();
         }
 
     }
+
+    public void ChangeDes()
+    {
+        textSweet.text = NeedToString(sweet);
+        textIntensity.text = NeedToString(intensity);
+        textMellow.text = NeedToString(mellow);
+    }
+
     private string NeedToString(float need)
     {
+        if (need <= 0)
+        {
+            return "没有";
+        }
+
         if (need <= 5)
         {
             return "轻微";
         }
-        else if (need > 5 && need <= 10)
+
+        if (need <= 10)
         {
             return "适中";
         }
-        else
-        {
-            return "很浓";
-        }
+
+        return "很浓";
     }
     bool CompareNeed()
     {
-        if(customerNeed.sweet.text != textSweet.text)
-            return false;
-        if (customerNeed.sweet.text != textIntensity.text)
-            return false;
-        if (customerNeed.sweet.text != textMellow.text)
-            return false;
-        return true;
+        return customerNeed.sweet.text == textSweet.text && customerNeed.intensity.text == textIntensity.text &&
+               customerNeed.mellow.text == textMellow.text;
+
     }
 }

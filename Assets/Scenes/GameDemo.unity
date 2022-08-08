@@ -1497,6 +1497,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 873591866}
     - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: nodeRect.x
+      value: 1754.7783
+      objectReference: {fileID: 0}
+    - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: nodeRect.y
+      value: 159.76376
+      objectReference: {fileID: 0}
+    - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.size
       value: 23
       objectReference: {fileID: 0}
@@ -1848,6 +1856,10 @@ PrefabInstance:
       propertyPath: indentLevel
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2411590857206194044, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: images.Array.data[0]
+      value: 
+      objectReference: {fileID: 3622935044238485118}
     - target: {fileID: 2558670209337396563, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: character
       value: 
@@ -2173,6 +2185,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1640846632}
     - target: {fileID: 6033517190830309493, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: nodeRect.x
+      value: 1174.282
+      objectReference: {fileID: 0}
+    - target: {fileID: 6033517190830309493, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: nodeRect.y
+      value: 671.79193
+      objectReference: {fileID: 0}
+    - target: {fileID: 6033517190830309493, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.size
       value: 12
       objectReference: {fileID: 0}
@@ -2264,6 +2284,10 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 1890413974}
+    - target: {fileID: 6510926388759508317, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: nodeRect.x
+      value: 1814.6471
+      objectReference: {fileID: 0}
     - target: {fileID: 6510926388759508317, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: nodeRect.y
       value: 554.78015
@@ -2562,7 +2586,7 @@ PrefabInstance:
       objectReference: {fileID: 1084388394}
     - target: {fileID: 7566336756182790426, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.size
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7566336756182790426, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[3]
@@ -2628,6 +2652,34 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 1084388394}
+    - target: {fileID: 8278328436093066650, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: targetMethod
+      value: ShowNeedBubble
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278328436093066650, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: targetObject
+      value: 
+      objectReference: {fileID: 1849727421}
+    - target: {fileID: 8278328436093066650, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: returnValueType
+      value: System.Void
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278328436093066650, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: targetMethodText
+      value: 'ShowNeedBubble (): Void'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278328436093066650, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: targetComponentText
+      value: GameManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278328436093066650, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: targetComponentFullname
+      value: UnityEngine.Component[]
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278328436093066650, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: targetComponentAssemblyName
+      value: GameManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      objectReference: {fileID: 0}
     - target: {fileID: 8369349023071977526, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: nodeRect.x
       value: 1037.3671
@@ -5317,6 +5369,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
+--- !u!114 &3622935044238485118 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 896385626, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}
+  m_PrefabInstance: {fileID: 3622935044238485117}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &7764360077615379372 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6451349704631064017, guid: 82b97f1a75ebbc846ba64c2c8c600cb2, type: 3}

@@ -35,33 +35,6 @@ public class AddAlcohol : MonoBehaviour
         nrr = new NoRepeatRandom(1000);
         originalPosition = ((RectTransform) transform).anchoredPosition;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        switchSpeedTime += Time.deltaTime;
-        if (switchSpeedTime >= 1)
-        {
-            speed = nrr.Next() * 2.5f;
-            switchSpeedTime = 0;
-        }
-        
-        if (buttonDown && addAlcohol)
-        {
-            slider.value += Time.deltaTime* speed;
-        }
-        else if (buttonDown && !addAlcohol)
-        {
-            slider.value -= Time.deltaTime* speed;
-        }
-        if (slider.value == 1)
-        {
-            addAlcohol = false;
-        }else if (slider.value == 0)
-        {
-            addAlcohol= true;
-        }
-    }
     
     public void OnClickAddAlcoholButton(bool down)
     {
@@ -73,7 +46,6 @@ public class AddAlcohol : MonoBehaviour
             Debug.Log(ID);
         }else
         {
-            //Debug.Log("停止加酒,加了:"+slider.value);
             cup.sweet += slider.value * sweet;
             cup.intensity += slider.value * intensity;
             cup.mellow += slider.value * mellow;
@@ -92,6 +64,9 @@ public class AddAlcohol : MonoBehaviour
         cup.sweet += sliderValue * sweet;
         cup.intensity += sliderValue  * intensity;
         cup.mellow += sliderValue  * mellow;
+        
+        // 更改描述
+        cup.ChangeDes();
             
         ChangeGlassColor.Add(ID, (int)Mathf.Ceil(slider.value * 3f));
         EndPourAlcohol();
@@ -117,25 +92,7 @@ public class AddAlcohol : MonoBehaviour
 
     public AlcoholItem GetAlcohol()
     {
-        switch (gameObject.name)
-        {
-            case "Votka":
-                return excelDataManager.AlcoholItem[2];
-            case "Whisky":
-                return excelDataManager.AlcoholItem[0];
-            case "rum":
-                return excelDataManager.AlcoholItem[1];
-            case "liqueur":
-                return excelDataManager.AlcoholItem[3];
-            case "barandy":
-                return excelDataManager.AlcoholItem[4];
-            case "力娇酒":
-                return excelDataManager.AlcoholItem[5];
-            default :
-                return excelDataManager.AlcoholItem[0];
-
-        }
-        
+        return excelDataManager.AlcoholItem[ID - 1];
     }
 
 }

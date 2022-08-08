@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Fungus;
+using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
@@ -6,6 +7,7 @@ public class GameManager : MonoBehaviour
     public GameObject NeedBubble;
     public AudioClip clip;
     public Transform cam;
+    public Flowchart Flowchart;
 
     /// <summary>
     /// 显示客人头上的需求泡泡。
@@ -45,5 +47,40 @@ public class GameManager : MonoBehaviour
     public void ChangeToDart()
     {
         
+    }
+
+    public void ContinueStory(bool drinkStatus, bool dartStatus)
+    {
+        string currentProcess = Flowchart.GetStringVariable("StoryProcess");
+        Flowchart.SetBooleanVariable("AlocholStatus", drinkStatus);
+        Flowchart.SetBooleanVariable("DartsEvent", dartStatus);
+
+        switch (currentProcess)
+        {
+            case "营救人质上":
+                Flowchart.ExecuteBlock("营救人质（上）调酒后");
+                break;
+            case "营救人质下":
+                Flowchart.ExecuteBlock("营救人质（下）调酒后");
+                break;
+            case "断油行动":
+                Flowchart.ExecuteBlock("断油行动调酒后");
+                break;
+            case "猎杀狙击手":
+                Flowchart.ExecuteBlock("猎杀狙击手（调酒后）");
+                break;
+            // case "营救人质上":
+            //     Flowchart.ExecuteBlock("营救人质（下）调酒后");
+            //     break;
+            // case "营救人质上":
+            //     Flowchart.ExecuteBlock("营救人质（下）调酒后");
+            //     break;
+            // case "营救人质上":
+            //     Flowchart.ExecuteBlock("营救人质（下）调酒后");
+            //     break;
+            // case "营救人质上":
+            //     Flowchart.ExecuteBlock("营救人质（下）调酒后");
+            //     break;
+        }
     }
 }
