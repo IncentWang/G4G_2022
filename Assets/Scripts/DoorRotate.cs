@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using UIFramework;
 
 public class DoorRotate : MonoBehaviour
 {
@@ -25,8 +26,9 @@ public class DoorRotate : MonoBehaviour
             time += Time.deltaTime;
             
         }
-        if (time > 2.5)
+        if (time > 1.8)
         {
+            UIManager.Instance.PopPanel();
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
