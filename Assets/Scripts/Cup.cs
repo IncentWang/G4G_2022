@@ -6,6 +6,7 @@ using UIFramework;
 
 public class Cup : MonoBehaviour
 {
+    public ChangeGlassColor changeGlassColor;
     public CreateCustomerNeed customerNeed;
     public float sweet;
     public float intensity;
@@ -21,6 +22,7 @@ public class Cup : MonoBehaviour
 
     public void OnClickFinishButton()
     {
+        changeGlassColor.ClearCup();
         ChangeDes();
         //比较杯与客户需求
         Debug.Log("顾客是否满足"+ CompareNeed());

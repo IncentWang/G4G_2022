@@ -1302,7 +1302,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7061c32bca1f8f4baf5b7bf307909ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: {fileID: 0}
+  shootGamePlayerController: {fileID: 3015349246312973654}
+  darts1: {fileID: 2295332186901031693}
+  darts2: {fileID: 8882492453373057918}
+  playerScore: {fileID: 7062685585704548704}
+  score: {fileID: 6534415856042491635}
 --- !u!1 &3760429483806437589
 GameObject:
   m_ObjectHideFlags: 0
