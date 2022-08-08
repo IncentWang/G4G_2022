@@ -15,7 +15,7 @@ public class AlcoholPourer : MonoBehaviour
 
     public bool isHover;
     public float hoverTiem;
-    public float hoverMaxTiem= 4;
+    public float hoverMaxTiem = 4;
     public bool hoverLock;
 
     private bool movingBar;
@@ -26,6 +26,7 @@ public class AlcoholPourer : MonoBehaviour
         GameObject.Find("Main Camera").TryGetComponent<Transform>(out cam);
         nrr = new NoRepeatRandom(1000);
     }
+
     public void Pour()
     {
         isHover = true;
@@ -37,8 +38,11 @@ public class AlcoholPourer : MonoBehaviour
     public void Reset()
     {
         movingBar = false;
-        CallbackAlcohol.Reset();
-        CallbackAlcohol = null;
+        if (CallbackAlcohol != null)
+        {
+            CallbackAlcohol.Reset();
+            CallbackAlcohol = null;
+        }
     }
 
     public void StartTry(AddAlcohol callback)
@@ -51,19 +55,21 @@ public class AlcoholPourer : MonoBehaviour
     {
         if (isHover)
         {
-            hoverTiem+=Time.deltaTime;
+            hoverTiem += Time.deltaTime;
             if (hoverTiem > hoverMaxTiem)
             {
                 hoverTiem = 0;
                 isHover = false;
             }
         }
+
         switchSpeedTime += Time.deltaTime;
         if (switchSpeedTime >= 1)
         {
             SliderSpeed = nrr.Next() * 2.5f;
             switchSpeedTime = 0;
         }
+
         // 控制进度条上上下下
         if (movingBar)
         {
