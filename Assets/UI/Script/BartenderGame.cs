@@ -34,11 +34,10 @@ namespace UIFramework
         public void OnClickCustomerNeedButton()
         {
             
-            if (!cupDetails.activeSelf&& custormerNeedLook)
-            {
+            
                 needDetails.SetActive(true);
                 isNeedDetails = true;
-            }
+            
         }
         
         public void OnClickTasteCupButton()
@@ -58,18 +57,7 @@ namespace UIFramework
 
         private void Update()
         {
-            if (isNeedDetails)
-            {
-                customerNeedtime+=Time.deltaTime;
-            }
-            if (customerNeedtime > 5)
-            {
-                custormerNeedLook=false;
-                needDetails.SetActive(false);
-                isNeedDetails=false;
-                customerNeedtime=0;
-
-            }if (isTaste)
+            if (isTaste)
             {
                 Tastetime += Time.deltaTime;
             }

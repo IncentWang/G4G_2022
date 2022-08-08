@@ -28,7 +28,8 @@ public class Cup : MonoBehaviour
         Debug.Log("¹Ë¿ÍÊÇ·ñÂú×ã"+ CompareNeed());
         UIManager.Instance.PopPanel();
         GameManager.Instance.ContinueStory(CompareNeed(), false);
-    }
+        textSweet.text=textIntensity.text=textMellow.text ="";
+}
     public void OnClickEmptyButton()
     {
         if ((emptyNum <= emptyMaxNum))
