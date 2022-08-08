@@ -3,11 +3,22 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager Instance;
     // 使用该类来放置游戏中的所有游戏时数据、Flowchart、工具函数
     public GameObject NeedBubble;
     public AudioClip clip;
     public Transform cam;
     public Flowchart Flowchart;
+
+    public void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            return;
+        }
+        Destroy(this);
+    }
 
     /// <summary>
     /// 显示客人头上的需求泡泡。

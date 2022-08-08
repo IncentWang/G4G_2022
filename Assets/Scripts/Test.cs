@@ -23,6 +23,7 @@ public class Test : MonoBehaviour
     }
     public void OnClickBartenderGameButton()
     {
+        GameManager.Instance.HideNeedBubble();
         UIManager.Instance.PushPanel(UIPanelType.BartenderGame);
 
     }

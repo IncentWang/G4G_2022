@@ -21,13 +21,11 @@ public class Cup : MonoBehaviour
 
     public void OnClickFinishButton()
     {
-        textSweet.text = NeedToString(sweet);
-        textIntensity.text = NeedToString(intensity);
-        textMellow.text = NeedToString(mellow);
+        ChangeDes();
         //比较杯与客户需求
-        CompareNeed();
         Debug.Log("顾客是否满足"+ CompareNeed());
         UIManager.Instance.PopPanel();
+        GameManager.Instance.ContinueStory(CompareNeed(), false);
     }
     public void OnClickEmptyButton()
     {
