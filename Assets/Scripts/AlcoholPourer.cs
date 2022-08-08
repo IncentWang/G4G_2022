@@ -9,10 +9,17 @@ public class AlcoholPourer : MonoBehaviour
     public Text Hint;
     public AudioClip clip;
     public Transform cam;
+    private NoRepeatRandom nrr;
+
+    float switchSpeedTime;
 
     private bool movingBar;
     private bool movingUp;
 
+    private void Start()
+    {
+        nrr = new NoRepeatRandom(1000);
+    }
     public void Pour()
     {
         movingBar = false;
@@ -35,6 +42,12 @@ public class AlcoholPourer : MonoBehaviour
 
     public void Update()
     {
+        switchSpeedTime += Time.deltaTime;
+        if (switchSpeedTime >= 1)
+        {
+            SliderSpeed = nrr.Next() * 2.5f;
+            switchSpeedTime = 0;
+        }
         // 控制进度条上上下下
         if (movingBar)
         {

@@ -39,7 +39,7 @@ public class AddAlcohol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        switchSpeedTime+=Time.deltaTime;
+        switchSpeedTime += Time.deltaTime;
         if (switchSpeedTime >= 1)
         {
             speed = nrr.Next() * 2.5f;
@@ -111,6 +111,7 @@ public class AddAlcohol : MonoBehaviour
 
     public void EndPourAlcohol()
     {
+        Debug.Log("返回原来的位置");
         ((RectTransform) transform).anchoredPosition = originalPosition;
         transform.rotation = Quaternion.identity;
     }
