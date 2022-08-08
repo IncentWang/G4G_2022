@@ -528,6 +528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d539003716e7d7a43bc47bfa5d78e29d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SPC: {fileID: 0}
 --- !u!114 &278854713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1159,6 +1160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d539003716e7d7a43bc47bfa5d78e29d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SPC: {fileID: 0}
 --- !u!114 &639601714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2488,7 +2490,7 @@ PrefabInstance:
       objectReference: {fileID: 873591866}
     - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: nodeRect.x
-      value: 1403.2319
+      value: 1404.2628
       objectReference: {fileID: 0}
     - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: nodeRect.y
@@ -2496,76 +2498,128 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.size
-      value: 27
+      value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[0]
+      value: 
+      objectReference: {fileID: 1640846817}
+    - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[1]
+      value: 
+      objectReference: {fileID: 1640846820}
+    - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 1640846814}
+    - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[3]
+      value: 
+      objectReference: {fileID: 1640846808}
+    - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[4]
+      value: 
+      objectReference: {fileID: 1640846809}
+    - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[5]
+      value: 
+      objectReference: {fileID: 1640846810}
+    - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[6]
+      value: 
+      objectReference: {fileID: 1640846811}
+    - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[7]
+      value: 
+      objectReference: {fileID: 1640846807}
+    - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[8]
+      value: 
+      objectReference: {fileID: 1640846812}
+    - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[9]
+      value: 
+      objectReference: {fileID: 1640846813}
+    - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[10]
+      value: 
+      objectReference: {fileID: 1640846805}
+    - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[11]
+      value: 
+      objectReference: {fileID: 1640846806}
     - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[12]
       value: 
-      objectReference: {fileID: 1640846629}
+      objectReference: {fileID: 1640846803}
     - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[13]
       value: 
-      objectReference: {fileID: 1640846627}
+      objectReference: {fileID: 1640846804}
     - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[14]
       value: 
-      objectReference: {fileID: 1640846628}
+      objectReference: {fileID: 1640846629}
     - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[15]
       value: 
-      objectReference: {fileID: 1640846625}
+      objectReference: {fileID: 1640846627}
     - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[16]
       value: 
-      objectReference: {fileID: 1640846626}
+      objectReference: {fileID: 1640846628}
     - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[17]
       value: 
-      objectReference: {fileID: 1640846733}
+      objectReference: {fileID: 1640846625}
     - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[18]
       value: 
-      objectReference: {fileID: 1640846702}
+      objectReference: {fileID: 1640846626}
     - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[19]
       value: 
-      objectReference: {fileID: 1640846622}
+      objectReference: {fileID: 1640846733}
     - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[20]
       value: 
-      objectReference: {fileID: 1640846623}
+      objectReference: {fileID: 1640846702}
     - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[21]
       value: 
-      objectReference: {fileID: 1640846624}
+      objectReference: {fileID: 1640846622}
     - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[22]
       value: 
-      objectReference: {fileID: 1640846632}
+      objectReference: {fileID: 1640846623}
     - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[23]
       value: 
-      objectReference: {fileID: 1640846631}
+      objectReference: {fileID: 1640846624}
     - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[24]
       value: 
-      objectReference: {fileID: 1640846621}
+      objectReference: {fileID: 1640846632}
     - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[25]
       value: 
-      objectReference: {fileID: 1640846619}
+      objectReference: {fileID: 1640846631}
     - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[26]
       value: 
-      objectReference: {fileID: 1640846615}
+      objectReference: {fileID: 1640846621}
     - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[27]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1640846619}
     - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[28]
       value: 
-      objectReference: {fileID: 9158882312630654521, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      objectReference: {fileID: 1640846816}
+    - target: {fileID: -623767602470811089, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[29]
+      value: 
+      objectReference: {fileID: 1640846615}
     - target: {fileID: 129711956376369202, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: character
       value: 
@@ -2600,7 +2654,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 639619785619797275, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 639619785619797275, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[0]
@@ -2617,11 +2671,11 @@ PrefabInstance:
     - target: {fileID: 639619785619797275, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[3]
       value: 
-      objectReference: {fileID: 1640846763}
+      objectReference: {fileID: 1640846792}
     - target: {fileID: 639619785619797275, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[4]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1640846763}
     - target: {fileID: 639619785619797275, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[5]
       value: 
@@ -2816,7 +2870,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1804902146145436200, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.size
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1804902146145436200, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[8]
@@ -2853,11 +2907,11 @@ PrefabInstance:
     - target: {fileID: 1804902146145436200, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[16]
       value: 
-      objectReference: {fileID: 1640846568}
+      objectReference: {fileID: 1640846795}
     - target: {fileID: 1804902146145436200, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[17]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1640846568}
     - target: {fileID: 1804902146145436200, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[18]
       value: 
@@ -2894,6 +2948,46 @@ PrefabInstance:
       propertyPath: nodeRect.y
       value: 698.2698
       objectReference: {fileID: 0}
+    - target: {fileID: 1858844499335841082, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1858844499335841082, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[0]
+      value: 
+      objectReference: {fileID: 1640846793}
+    - target: {fileID: 1858844499335841082, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[1]
+      value: 
+      objectReference: {fileID: 1640846794}
+    - target: {fileID: 1858844499335841082, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 1640846877}
+    - target: {fileID: 1858844499335841082, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[3]
+      value: 
+      objectReference: {fileID: 1640846874}
+    - target: {fileID: 1858844499335841082, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[4]
+      value: 
+      objectReference: {fileID: 1640846875}
+    - target: {fileID: 1858844499335841082, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[5]
+      value: 
+      objectReference: {fileID: 1640846876}
+    - target: {fileID: 1858844499335841082, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[6]
+      value: 
+      objectReference: {fileID: 1640846873}
+    - target: {fileID: 1858844499335841082, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[7]
+      value: 
+      objectReference: {fileID: 1640846872}
+    - target: {fileID: 1858844499335841082, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[8]
+      value: 
+      objectReference: {fileID: 1640846871}
     - target: {fileID: 1916802534510044775, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: targetMethod
       value: ShowNeedBubble
@@ -3223,11 +3317,75 @@ PrefabInstance:
       value: 644.647
       objectReference: {fileID: 0}
     - target: {fileID: 5308597855556347724, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.size
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 5308597855556347724, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[0]
+      value: 
+      objectReference: {fileID: 1640846834}
+    - target: {fileID: 5308597855556347724, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[1]
+      value: 
+      objectReference: {fileID: 1640846835}
+    - target: {fileID: 5308597855556347724, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 1640846831}
+    - target: {fileID: 5308597855556347724, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[3]
+      value: 
+      objectReference: {fileID: 1640846825}
+    - target: {fileID: 5308597855556347724, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[4]
+      value: 
+      objectReference: {fileID: 1640846826}
+    - target: {fileID: 5308597855556347724, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[5]
+      value: 
+      objectReference: {fileID: 1640846827}
+    - target: {fileID: 5308597855556347724, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[6]
+      value: 
+      objectReference: {fileID: 1640846828}
+    - target: {fileID: 5308597855556347724, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[7]
+      value: 
+      objectReference: {fileID: 1640846829}
+    - target: {fileID: 5308597855556347724, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[8]
+      value: 
+      objectReference: {fileID: 1640846830}
+    - target: {fileID: 5308597855556347724, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[9]
+      value: 
+      objectReference: {fileID: 1640846822}
+    - target: {fileID: 5308597855556347724, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[10]
+      value: 
+      objectReference: {fileID: 1640846823}
+    - target: {fileID: 5308597855556347724, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[11]
+      value: 
+      objectReference: {fileID: 1640846824}
+    - target: {fileID: 5308597855556347724, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[12]
+      value: 
+      objectReference: {fileID: 1640846821}
+    - target: {fileID: 5308597855556347724, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[13]
+      value: 
+      objectReference: {fileID: 1640846819}
+    - target: {fileID: 5308597855556347724, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[14]
+      value: 
+      objectReference: {fileID: 1640846818}
+    - target: {fileID: 5308597855556347724, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[15]
       value: 
       objectReference: {fileID: 1640846591}
     - target: {fileID: 5308597855556347724, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
-      propertyPath: commandList.Array.data[14]
+      propertyPath: commandList.Array.data[16]
       value: 
       objectReference: {fileID: 1640846592}
     - target: {fileID: 5487321381443983629, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
@@ -3352,7 +3510,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5960916830971819547, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5960916830971819547, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[1]
@@ -3373,11 +3531,11 @@ PrefabInstance:
     - target: {fileID: 5960916830971819547, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[5]
       value: 
-      objectReference: {fileID: 1640846618}
+      objectReference: {fileID: 1640846833}
     - target: {fileID: 5960916830971819547, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[6]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1640846618}
     - target: {fileID: 5960916830971819547, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[7]
       value: 
@@ -3540,7 +3698,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6575114478209989274, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.size
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6575114478209989274, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[1]
@@ -3569,11 +3727,11 @@ PrefabInstance:
     - target: {fileID: 6575114478209989274, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[7]
       value: 
-      objectReference: {fileID: 1640846648}
+      objectReference: {fileID: 1640846798}
     - target: {fileID: 6575114478209989274, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[8]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1640846648}
     - target: {fileID: 6575114478209989274, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[9]
       value: 
@@ -3624,12 +3782,72 @@ PrefabInstance:
       objectReference: {fileID: 1890413974}
     - target: {fileID: 6575114478209989323, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: nodeRect.x
-      value: 390.5883
+      value: 391.6192
       objectReference: {fileID: 0}
     - target: {fileID: 6575114478209989323, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: nodeRect.y
       value: 342.0054
       objectReference: {fileID: 0}
+    - target: {fileID: 6575114478209989323, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.size
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6575114478209989323, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[0]
+      value: 
+      objectReference: {fileID: 1640846800}
+    - target: {fileID: 6575114478209989323, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[1]
+      value: 
+      objectReference: {fileID: 1640846799}
+    - target: {fileID: 6575114478209989323, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 1640846912}
+    - target: {fileID: 6575114478209989323, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[3]
+      value: 
+      objectReference: {fileID: 1640846913}
+    - target: {fileID: 6575114478209989323, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[4]
+      value: 
+      objectReference: {fileID: 1640846914}
+    - target: {fileID: 6575114478209989323, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[5]
+      value: 
+      objectReference: {fileID: 1640846915}
+    - target: {fileID: 6575114478209989323, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[6]
+      value: 
+      objectReference: {fileID: 1640846916}
+    - target: {fileID: 6575114478209989323, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[7]
+      value: 
+      objectReference: {fileID: 1640846917}
+    - target: {fileID: 6575114478209989323, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[8]
+      value: 
+      objectReference: {fileID: 1640846918}
+    - target: {fileID: 6575114478209989323, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[9]
+      value: 
+      objectReference: {fileID: 1640846919}
+    - target: {fileID: 6575114478209989323, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[10]
+      value: 
+      objectReference: {fileID: 1640846889}
+    - target: {fileID: 6575114478209989323, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[11]
+      value: 
+      objectReference: {fileID: 1640846890}
+    - target: {fileID: 6575114478209989323, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[12]
+      value: 
+      objectReference: {fileID: 1640846891}
+    - target: {fileID: 6575114478209989323, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[13]
+      value: 
+      objectReference: {fileID: 1640846892}
     - target: {fileID: 6575114478209989324, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: character
       value: 
@@ -3963,11 +4181,59 @@ PrefabInstance:
       value: 623.9968
       objectReference: {fileID: 0}
     - target: {fileID: 6762084013515673821, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6762084013515673821, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[0]
+      value: 
+      objectReference: {fileID: 1640846855}
+    - target: {fileID: 6762084013515673821, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[1]
+      value: 
+      objectReference: {fileID: 1640846856}
+    - target: {fileID: 6762084013515673821, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 1640846847}
+    - target: {fileID: 6762084013515673821, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[3]
+      value: 
+      objectReference: {fileID: 1640846841}
+    - target: {fileID: 6762084013515673821, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[4]
+      value: 
+      objectReference: {fileID: 1640846842}
+    - target: {fileID: 6762084013515673821, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[5]
+      value: 
+      objectReference: {fileID: 1640846843}
+    - target: {fileID: 6762084013515673821, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[6]
+      value: 
+      objectReference: {fileID: 1640846844}
+    - target: {fileID: 6762084013515673821, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[7]
+      value: 
+      objectReference: {fileID: 1640846845}
+    - target: {fileID: 6762084013515673821, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[8]
+      value: 
+      objectReference: {fileID: 1640846846}
+    - target: {fileID: 6762084013515673821, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[9]
+      value: 
+      objectReference: {fileID: 1640846839}
+    - target: {fileID: 6762084013515673821, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[10]
+      value: 
+      objectReference: {fileID: 1640846840}
+    - target: {fileID: 6762084013515673821, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[11]
       value: 
       objectReference: {fileID: 1640846593}
     - target: {fileID: 6762084013515673821, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
-      propertyPath: commandList.Array.data[10]
+      propertyPath: commandList.Array.data[12]
       value: 
       objectReference: {fileID: 1640846594}
     - target: {fileID: 6789179595188485158, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
@@ -3980,48 +4246,48 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6789179595188485158, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.size
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6789179595188485158, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[0]
       value: 
-      objectReference: {fileID: 1640846645}
+      objectReference: {fileID: 1640846796}
     - target: {fileID: 6789179595188485158, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[1]
       value: 
-      objectReference: {fileID: 1640846586}
+      objectReference: {fileID: 1640846797}
     - target: {fileID: 6789179595188485158, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[2]
       value: 
-      objectReference: {fileID: 1640846644}
+      objectReference: {fileID: 1640846645}
     - target: {fileID: 6789179595188485158, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[3]
       value: 
-      objectReference: {fileID: 1640846585}
+      objectReference: {fileID: 1640846586}
     - target: {fileID: 6789179595188485158, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[4]
       value: 
-      objectReference: {fileID: 1640846577}
+      objectReference: {fileID: 1640846644}
     - target: {fileID: 6789179595188485158, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[5]
       value: 
-      objectReference: {fileID: 1640846576}
+      objectReference: {fileID: 1640846585}
     - target: {fileID: 6789179595188485158, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[6]
       value: 
-      objectReference: {fileID: 1640846571}
+      objectReference: {fileID: 1640846577}
     - target: {fileID: 6789179595188485158, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[7]
       value: 
-      objectReference: {fileID: 1640846572}
+      objectReference: {fileID: 1640846576}
     - target: {fileID: 6789179595188485158, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[8]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1640846571}
     - target: {fileID: 6789179595188485158, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[9]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1640846572}
     - target: {fileID: 6789179595188485158, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[10]
       value: 
@@ -4087,11 +4353,47 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1084388394}
     - target: {fileID: 7426465644453664723, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7426465644453664723, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[0]
+      value: 
+      objectReference: {fileID: 1640846790}
+    - target: {fileID: 7426465644453664723, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[1]
+      value: 
+      objectReference: {fileID: 1640846791}
+    - target: {fileID: 7426465644453664723, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 1640846854}
+    - target: {fileID: 7426465644453664723, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[3]
+      value: 
+      objectReference: {fileID: 1640846849}
+    - target: {fileID: 7426465644453664723, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[4]
+      value: 
+      objectReference: {fileID: 1640846850}
+    - target: {fileID: 7426465644453664723, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[5]
+      value: 
+      objectReference: {fileID: 1640846851}
+    - target: {fileID: 7426465644453664723, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[6]
+      value: 
+      objectReference: {fileID: 1640846852}
+    - target: {fileID: 7426465644453664723, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[7]
+      value: 
+      objectReference: {fileID: 1640846853}
+    - target: {fileID: 7426465644453664723, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+      propertyPath: commandList.Array.data[8]
       value: 
       objectReference: {fileID: 1640846559}
     - target: {fileID: 7426465644453664723, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
-      propertyPath: commandList.Array.data[7]
+      propertyPath: commandList.Array.data[9]
       value: 
       objectReference: {fileID: 1640846560}
     - target: {fileID: 7504908984956630041, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
@@ -4104,7 +4406,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7566336756182790426, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.size
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7566336756182790426, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[3]
@@ -4149,11 +4451,11 @@ PrefabInstance:
     - target: {fileID: 7566336756182790426, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[13]
       value: 
-      objectReference: {fileID: 1640846734}
+      objectReference: {fileID: 1640846848}
     - target: {fileID: 7566336756182790426, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[14]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1640846734}
     - target: {fileID: 7566336756182790426, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
       propertyPath: commandList.Array.data[15]
       value: 
@@ -4850,6 +5152,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1640846858}
+  - {fileID: 1640846859}
   - {fileID: 1640846581}
   - {fileID: 1640846573}
   - {fileID: 1640846563}
@@ -4867,6 +5171,7 @@ MonoBehaviour:
   - {fileID: 1640846724}
   - {fileID: 1640846723}
   - {fileID: 1640846722}
+  - {fileID: 1640846857}
   - {fileID: 1640846721}
   suppressAllAutoSelections: 0
 --- !u!114 &1640846583
@@ -5643,8 +5948,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1401.0892
-    y: 252.63545
+    x: 1400.0583
+    y: 251.60452
     width: 136.59793
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -5654,6 +5959,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1640846802}
+  - {fileID: 1640846815}
   - {fileID: 1640846613}
   - {fileID: 1640846612}
   - {fileID: 1640846611}
@@ -7134,7 +7441,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 194.90361
-    y: 287.687
+    y: 286.6561
     width: 80.92783
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -7144,6 +7451,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1640846788}
+  - {fileID: 1640846789}
   - {fileID: 1640846682}
   - {fileID: 1640846681}
   - {fileID: 1640846680}
@@ -7698,9 +8007,11 @@ MonoBehaviour:
   - {fileID: 1640846689}
   - {fileID: 1640846688}
   - {fileID: 1640846654}
+  - {fileID: 1640846863}
   - {fileID: 1640846686}
   - {fileID: 1640846685}
   - {fileID: 1640846653}
+  - {fileID: 1640846862}
   - {fileID: 1640846684}
   - {fileID: 1640846683}
   suppressAllAutoSelections: 0
@@ -8363,8 +8674,10 @@ MonoBehaviour:
   - {fileID: 1640846709}
   - {fileID: 1640846708}
   - {fileID: 1640846707}
+  - {fileID: 1640846861}
   - {fileID: 1640846706}
   - {fileID: 1640846705}
+  - {fileID: 1640846860}
   - {fileID: 1640846584}
   - {fileID: 1640846583}
   suppressAllAutoSelections: 0
@@ -9424,7 +9737,8 @@ MonoBehaviour:
   blockName: "\u6697\u6740\u519B\u5B98\uFF08\u4E0B\uFF09\u62D6\u4F4F"
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 1640846801}
   suppressAllAutoSelections: 0
 --- !u!114 &1640846747
 MonoBehaviour:
@@ -10489,7 +10803,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 919.3572
+    x: 920.3882
     y: 615.63544
     width: 82.989685
     height: 40
@@ -10500,6 +10814,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1640846838}
+  - {fileID: 1640846837}
   - {fileID: 1640846786}
   - {fileID: 1640846785}
   - {fileID: 1640846784}
@@ -10525,8 +10841,932 @@ MonoBehaviour:
   - {fileID: 1640846764}
   - {fileID: 1640846695}
   - {fileID: 1640846657}
+  - {fileID: 1640846836}
   - {fileID: 1640846655}
   suppressAllAutoSelections: 0
+--- !u!114 &1640846788
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 505
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1319208816}
+  targetComponentAssemblyName: CameraFader, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: CameraFader
+  targetMethod: FadeIn
+  targetMethodText: 'FadeIn (Single): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1640846789
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 504
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
+--- !u!114 &1640846790
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 516
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1319208816}
+  targetComponentAssemblyName: CameraFader, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: CameraFader
+  targetMethod: FadeIn
+  targetMethodText: 'FadeIn (Single): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1640846791
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 515
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
+--- !u!114 &1640846792
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 514
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1319208816}
+  targetComponentAssemblyName: CameraFader, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: CameraFader
+  targetMethod: FadeOut
+  targetMethodText: 'FadeOut (Single): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1640846793
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 513
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1319208816}
+  targetComponentAssemblyName: CameraFader, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: CameraFader
+  targetMethod: FadeIn
+  targetMethodText: 'FadeIn (Single): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1640846794
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 512
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
+--- !u!114 &1640846795
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 511
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1319208816}
+  targetComponentAssemblyName: CameraFader, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: CameraFader
+  targetMethod: FadeOut
+  targetMethodText: 'FadeOut (Single): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1640846796
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 510
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1319208816}
+  targetComponentAssemblyName: CameraFader, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: CameraFader
+  targetMethod: FadeIn
+  targetMethodText: 'FadeIn (Single): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1640846797
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 509
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
+--- !u!114 &1640846798
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 508
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1319208816}
+  targetComponentAssemblyName: CameraFader, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: CameraFader
+  targetMethod: FadeOut
+  targetMethodText: 'FadeOut (Single): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1640846799
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 507
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
+--- !u!114 &1640846800
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 506
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1319208816}
+  targetComponentAssemblyName: CameraFader, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: CameraFader
+  targetMethod: FadeIn
+  targetMethodText: 'FadeIn (Single): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1640846801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 536
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1640846802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 535
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1319208816}
+  targetComponentAssemblyName: CameraFader, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: CameraFader
+  targetMethod: FadeIn
+  targetMethodText: 'FadeIn (Single): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1640846803 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6662632957117140721, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846804 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7091861299225151279, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846805 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6938611101032880744, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846806 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7102114908647790428, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846807 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8824005668738330638, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846808 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4146228752410419461, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846809 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -3265538042476760608, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846810 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1923760307197098012, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846811 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9173093724287155853, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846812 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 772396846634297043, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846813 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -6069828377113692425, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846814 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -2615899208860118807, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 534
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
+--- !u!114 &1640846816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 533
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1319208816}
+  targetComponentAssemblyName: CameraFader, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: CameraFader
+  targetMethod: FadeOut
+  targetMethodText: 'FadeOut (Single): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1640846817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 532
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1319208816}
+  targetComponentAssemblyName: CameraFader, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: CameraFader
+  targetMethod: FadeIn
+  targetMethodText: 'FadeIn (Single): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1640846818 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8202260411973042807, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846819 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5781814229937024272, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 531
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
+--- !u!114 &1640846821 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7419337758125779492, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846822 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2108470986520111576, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846823 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6202689407471293189, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846824 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4971741982244676539, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846825 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7002729235887456239, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846826 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4736748611168142893, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846827 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4613990502797392977, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846828 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 224413021113344111, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846829 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6885071894629947072, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846830 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7744483413136197318, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846831 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2560149538968469812, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1640846832 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6575114478209989345, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
@@ -10536,6 +11776,938 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 530
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1319208816}
+  targetComponentAssemblyName: CameraFader, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: CameraFader
+  targetMethod: FadeOut
+  targetMethodText: 'FadeOut (Single): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1640846834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 529
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1319208816}
+  targetComponentAssemblyName: CameraFader, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: CameraFader
+  targetMethod: FadeIn
+  targetMethodText: 'FadeIn (Single): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1640846835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 528
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
+--- !u!114 &1640846836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 527
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1319208816}
+  targetComponentAssemblyName: CameraFader, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: CameraFader
+  targetMethod: FadeOut
+  targetMethodText: 'FadeOut (Single): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1640846837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 526
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
+--- !u!114 &1640846838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 525
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1319208816}
+  targetComponentAssemblyName: CameraFader, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: CameraFader
+  targetMethod: FadeIn
+  targetMethodText: 'FadeIn (Single): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1640846839 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4501596119217665477, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846840 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1673193597435989357, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846841 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8912731774503722280, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846842 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2355679588168459043, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846843 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6920923484909940536, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846844 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5184880911029207465, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846845 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1078469423936501004, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846846 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7652113374696828695, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846847 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8965873062675286094, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 524
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1319208816}
+  targetComponentAssemblyName: CameraFader, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: CameraFader
+  targetMethod: FadeOut
+  targetMethodText: 'FadeOut (Single): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1640846849 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4546434996806712025, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846850 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2558670209337396563, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846851 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3952106859622877395, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846852 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5094071169333349431, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846853 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 223986485191524881, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846854 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4277002750255483676, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 523
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1319208816}
+  targetComponentAssemblyName: CameraFader, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: CameraFader
+  targetMethod: FadeIn
+  targetMethodText: 'FadeIn (Single): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1640846856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 522
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
+--- !u!114 &1640846857
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 521
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1319208816}
+  targetComponentAssemblyName: CameraFader, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: CameraFader
+  targetMethod: FadeOut
+  targetMethodText: 'FadeOut (Single): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1640846858
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 520
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1319208816}
+  targetComponentAssemblyName: CameraFader, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: CameraFader
+  targetMethod: FadeIn
+  targetMethodText: 'FadeIn (Single): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1640846859
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 519
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
+--- !u!114 &1640846860
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 518
+  indentLevel: 1
+  description: 
+  targetObject: {fileID: 1319208816}
+  targetComponentAssemblyName: CameraFader, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: CameraFader
+  targetMethod: FadeOut
+  targetMethodText: 'FadeOut (Single): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1640846861
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 517
+  indentLevel: 1
+  description: 
+  targetObject: {fileID: 1319208816}
+  targetComponentAssemblyName: CameraFader, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: CameraFader
+  targetMethod: FadeOut
+  targetMethodText: 'FadeOut (Single): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1640846862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 538
+  indentLevel: 1
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
+--- !u!114 &1640846863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 537
+  indentLevel: 1
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
+--- !u!114 &1640846871 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5822934766672748986, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846872 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1916802534510044775, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846873 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7812893505052394099, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846874 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5491191119612096675, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846875 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4562084674396503618, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846876 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5901324551447861452, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846877 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4594210381494612586, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846889 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6575114478209989278, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846890 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6575114478209989273, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846891 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6575114478209989272, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846892 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6575114478209989275, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846912 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6575114478209989317, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846913 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6575114478209989316, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846914 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6575114478209989319, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846915 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6575114478209989318, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846916 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6575114478209989313, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846917 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6575114478209989312, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846918 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6575114478209989315, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1640846919 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6575114478209989314, guid: 504fcc81d1d43bd4f96b07870d4b32ff, type: 3}
+  m_PrefabInstance: {fileID: 1640846556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640846558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1654424240
