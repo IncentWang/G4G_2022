@@ -12,7 +12,7 @@ using UnityEngine.UI;
         public Transform cam;
 
         public float time;
-        bool isShoot;
+        public bool isShoot;
         public RectTransform DotPosition;
         public DartsMove Dart;
         public Text scoreText;
@@ -20,12 +20,7 @@ using UnityEngine.UI;
         {
             GameObject.Find("Main Camera").TryGetComponent<Transform>(out cam);
         }
-        private void OnEnable()
-        {
-            isShoot = false;
-            
-            
-        }
+
         private void Update()
         {
             time -= Time.deltaTime;

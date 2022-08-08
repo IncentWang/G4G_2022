@@ -15,9 +15,11 @@ namespace UIFramework
             base.OnEnter();
             playerScore.text = "0";
             score.text = "0";
+            darts1.speed = darts2.speed = 500;
             System.Random random = new System.Random();
             shootGamePlayerController.time = random.Next(3, 5);
-            darts1.speed = darts2.speed = 500;
+            shootGamePlayerController.isShoot = false;
+            Debug.Log(shootGamePlayerController.time);
 
         }
         public void OnClickReturnButton()
