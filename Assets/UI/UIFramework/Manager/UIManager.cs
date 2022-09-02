@@ -53,6 +53,16 @@ namespace UIFramework
         {
             panelStack.Clear();
         }
+        /// <summary>
+        /// 进入新场景时，需要把存储面板的栈清空.
+        /// </summary>
+        public void EnterNextScene()
+        {
+            panelStack.Clear();
+        }
+        /// <summary>
+        /// Pops all panel.
+        /// </summary>
         public void PopAllPanel()
         {
             if (panelStack.Count > 0)

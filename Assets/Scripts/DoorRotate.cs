@@ -3,39 +3,30 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using UIFramework;
+using DG.Tweening;
 
 public class DoorRotate : MonoBehaviour
 {
-    bool isRotate;
-    public bool isRight;
-    public float time;
+    public RectTransform leftRectTransform;
+    public RectTransform rightRectTransform;
+    public RectTransform imageRectTransform;
 
-    private void Update()
+    private Sequence sequence;
+
+    private void Start()
     {
-        if (isRotate&&!isRight)
-        {
-            transform.Rotate(-transform.up, 0.1f);
-        }else if (isRotate && isRight)
-        {
-            transform.Rotate(transform.up, 0.1f);
-
-        }
         
-        if (isRotate )
-        {
-            time += Time.deltaTime;
-            
-        }
-        if (time > 1.8)
-        {
-            UIManager.Instance.PopPanel();
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        }
-
+        imageRectTransform.DORotate(new Vector3(0, 0, 90), 1f).SetEase(Ease.Linear).SetLoops(-1,LoopType.Incremental).SetId("imageRotate");
     }
     public void OnClickStartButton()
     {
-        isRotate = true;
+        sequence = DOTween.Sequence();
+        sequence.Append(leftRectTransform.DORotate(new Vector3(0, -91, 0), 1f).OnComplete(() => {
+            UIManager.Instance.EnterNextScene();
+            DOTween.Kill("imageRotate");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }));
+        sequence.Insert(0,rightRectTransform.DORotate(new Vector3(0, 90, 0), 1f));
     }
 
 }
