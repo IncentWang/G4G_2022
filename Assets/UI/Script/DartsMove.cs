@@ -20,6 +20,7 @@ public class DartsMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        transform.GetComponent<Collider2D>().isTrigger = false;
         nrr = new NoRepeatRandom(1000);
         TryGetComponent<Rigidbody2D>(out rb);
         velocityDir.x = nrr.Next() * 300f - 150f;

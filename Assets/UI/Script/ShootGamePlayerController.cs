@@ -28,6 +28,7 @@ using UnityEngine.UI;
             {
                 isShoot = true;
                 shoot(Dart, scoreText, DotPosition);
+                Dart.transform.GetComponent<Collider2D>().isTrigger = true;
             }
             if (Input.GetKeyDown(KeyCode.Space)&&isShoot)
             {

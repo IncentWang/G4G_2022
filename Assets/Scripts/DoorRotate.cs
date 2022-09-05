@@ -16,7 +16,7 @@ public class DoorRotate : MonoBehaviour
     private void Start()
     {
         
-        imageRectTransform.DORotate(new Vector3(0, 0, 90), 1f).SetEase(Ease.Linear).SetLoops(-1,LoopType.Incremental).SetId("imageRotate");
+        imageRectTransform.DORotate(new Vector3(0, 0, 45), 1f).SetEase(Ease.Linear).SetLoops(-1,LoopType.Incremental).SetId("imageRotate");
     }
     public void OnClickStartButton()
     {
